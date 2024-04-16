@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="logo"><h1>Felpp</h1></div>                
+            </div>
+            <div class="mobile-menu">               
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li> <a href="/"></a> Inicio</li>
+                <li> <a href="/"></a> Contato</li>
+                <li> <a href="/"></a> Ajuda?</li>
+            </ul>           
+        </nav>
+    </head>
+
+    <div class="conteiner">
+            
+        <form class="form-1">
+            <h3>Informações</h3>
+
+            <div class="input-grup"> 
+                    
+                <div class="input-box">
+                        <label for="firstname">Nome:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Digite o seu primeiro nome" required> 
+                </div>
+
+                <div class="input-box">
+                        <label for="secondname">Sobrenome:</label>
+                        <input type="text" name="secondname" id="secondname" placeholder="Digite o seu segundo nome" required> 
+                </div>
+
+                <div class="input-box">
+                        <label for="e-mail">E-mail:</label>
+                        <input type="text" name="e-mail" id="e-mail" placeholder="Digite o e-mail" required> 
+                </div>
+
+                <div class="input-box">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="Digite o seu cpf" required> 
+                </div>
+
+                <div class="input-box">
+                    <label for="rg">RG:</label>
+                    <input type="text" name="cpf" id="rg" placeholder="Digite o seu rg" required> 
+                </div>
+
+                <div class="input-box">
+                    <label for="contato">Contato:</label>
+                    <input type="text" name="Contato" id="Contato" placeholder="Digite o numero do seu celular" required> 
+                </div>
+
+
+            </div>
+                
+                        
+            <div class="gender-inputs">
+                <div class="gender-tittle">
+                    <h6>Gêneros</h6>
+                </div>
+                
+                <div class="gender-group">
+                    <div class="gender-input">
+                        <input type="radio" id="female" name="gender">
+                        <label for="female"> Femenino</label>
+                    </div>
+                    <div class="gender-input">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male"> Masculino</label>
+                    </div>
+                    <div class="gender-input">
+                        <input type="radio" id="outher" name="gender">
+                        <label for="outher"> Outros</label>
+                    </div>
+                </div>
+
+            </div>
+               
+            <div class="button">
+                    <button type="submit">Enviar</button>
+            </div>
+        </form>           
+    </div>
+    <div class="end">
+        <footer class="end-footer"> &copy;FelppDev</footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
